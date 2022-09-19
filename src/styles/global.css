@@ -1,0 +1,42 @@
+:root {
+  --gray-800: #333446;
+  --gray-700: #53556e;
+  --gray-600: #747899;
+  --gray-500: #9599b1;
+  --gray-400: #aeb0c2;
+
+  --black-500: #161920;
+  --black-400: #1c1d25;
+
+  --pink-900: #d33b8a;
+  --pink-800: #e761a2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+#root {
+  background-color: var(--black-500);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  max-width: 1480px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button:disabled {
+  opacity: 0.7;
+}
